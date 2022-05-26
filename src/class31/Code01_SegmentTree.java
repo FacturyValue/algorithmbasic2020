@@ -69,7 +69,7 @@ public class Code01_SegmentTree {
 			pushUp(rt);
 		}
 
-		
+
 		// L~R  所有的值变成C
 		// l~r  rt
 		public void update(int L, int R, int C, int l, int r, int rt) {
@@ -175,7 +175,7 @@ public class Code01_SegmentTree {
 		return origin;
 	}
 
-	public static boolean test() {
+	public static boolean   test() {
 		int len = 100;
 		int max = 1000;
 		int testTimes = 5000;
